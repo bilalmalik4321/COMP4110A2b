@@ -14,4 +14,7 @@ into an int instead of a float that can handle the decimal values. This shall be
 
 Next we look at Equivalence partitions.
 
-Breaking up into valid and invalid classes, we look first in valid. One partition can be that of zero, this will have to call the base case immeditely in the algorithm.
+Breaking up into valid and invalid classes, we look first in valid. One partition can be that of zero, this will have to call the base case
+immeditely in the algorithm. The only case where this works is sin, which begins at zero, thus its basecase is easy to compute. Cos and tan
+have the problem that the equation needs to be run at last for them, as well as the fact that Math.tan, Math.cos, and Math.sin return doubles.
+
