@@ -28,5 +28,6 @@ immeditely in the algorithm. The only case where this works is sin, which begins
 at zero, thus its basecase is easy to compute. Cos and tan
 have the problem that the equation needs to be run at last for them, as well as
 the fact that Math.tan, Math.cos, and Math.sin return doubles.
+In EquivTest.java, the code for test runs in the zero class can be found alongside their executions in the sin cos and tan0runs.
 
 The next class is positive numbers, which fails for the reason of the return value.
