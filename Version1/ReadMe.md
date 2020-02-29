@@ -30,4 +30,5 @@ have the problem that the equation needs to be run at last for them, as well as
 the fact that Math.tan, Math.cos, and Math.sin return doubles.
 In EquivTest.java, the code for test runs in the zero class can be found alongside their executions in the sin cos and tan0runs.
 
-The next class is positive numbers, which fails for the reason of the return value.
+The next class is positive numbers, which fails for the reason of the return value. I do not run error guessing test cases as I realized 
+the usefulness of these test cases is very little as most of the other test cases fale, this would not give new insight to the program.
