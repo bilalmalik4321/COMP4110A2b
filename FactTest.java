@@ -12,8 +12,8 @@ class FactTest {
 		int foutput=t.fact(4);
 		assertEquals(24, foutput);
 		
-		foutput=t.fact(10);
-		assertEquals(3628800, foutput);
+		foutput=t.fact(6);
+		assertEquals(720, foutput);
 	}
 
 }
